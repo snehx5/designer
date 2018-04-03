@@ -1,0 +1,329 @@
+body{
+margin: 0;
+width:100%;
+background-color:black;
+}
+
+#title{
+  margin-top:150px;
+/*  margin-left:10%;*/
+  color:white;
+  margin-bottom:50px;
+}
+
+#text{
+  color:white;
+  width:75%;
+/*  margin-left:10%;*/
+  font-size:20px;
+}
+
+#container{
+  margin-left:10%;
+}
+
+#container ul{
+  margin-top:50px;
+  color:white;
+  float:left;
+  margin-left:0px;
+}
+
+#container p{
+  color:white;
+}
+
+
+#deliverable-heading{
+font-size:20px;
+margin-left:0%;
+color:white;
+}
+
+#prototype:hover{
+  text-decoration:none;
+}
+
+#research{
+  margin-left:-600px;
+  margin-top:300px;
+}
+
+header{
+  margin-top:22px;
+  box-shadow:3px 2px 3px black;
+  height:75px;
+  width:100%;
+  background-color:#E91E63;
+  position:fixed;
+  z-index:2;
+
+}
+
+#images img{
+  display:inline-block;
+}
+
+button{
+  font-family:'Open Sans', sans-serif;
+  margin-left:50%;
+  font-size:18px;
+  background-color:black;
+  border:solid #C6FF00 3px;
+  color:#C6FF00;
+  padding:10px;
+}
+
+
+#social-media{
+
+}
+
+
+#logo{
+  position:absolute;
+  margin-top:20px;
+  margin-left:4%;
+}
+
+#social-media{
+  margin-left:80%;
+  width:500px;
+  position:absolute;
+  margin-top:-40px;
+  list-style-type:none;
+}
+
+ul li{
+  display:inline-block;
+  margin-left:3%;
+}
+
+
+
+#sub-header{
+  position:fixed;
+  height:25px;
+  width:100%;
+  background-color:#EC407A;
+  z-index:2;
+}
+
+#main{
+ /* background-color:black;*/
+  height:700px;
+  width:120%;
+
+
+
+
+}
+
+#main-2{
+  margin-top:0px;
+  background-color:black;
+ /* width:100%;*/
+  height:700px;
+}
+
+nav{
+  color:white;
+  margin-left:30%;
+  margin-top:30px;
+ /* margin-top:30px;
+  width:600px;*/
+
+}
+
+div img{
+ /* position:absolute;*/
+  margin-top:0px;
+/*  margin-left:2%;*/
+}
+
+h2{
+position:absolute;
+font-family: 'Open Sans', sans-serif;
+padding:5%;
+font-weight:bold;
+
+}
+
+nav a{
+  margin-left:5%;
+  color:white;
+  font-weight:lighter;
+  font-family: 'Rajdhani', sans-serif;
+  font-size:18px;
+}
+
+*{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+a:hover{
+  text-decoration:underline;
+  color:white;
+}
+
+ul{
+  margin-left:80%;
+}
+
+#first-panel{
+  margin-top:100px;
+  width:100%;
+
+
+}
+
+#header{
+  /*background-color:black;*/
+  background:url(photo4.jpg);
+  background-size:cover;
+  height:700px;
+  width:100%;
+}
+
+#header h3{
+  width:600px;
+  margin-top:100px;
+  padding:7%;
+  font-size:30px;
+  position:absolute;
+  color:black;
+  /*z-index:2;*/
+}
+
+#sub-divider{
+  width:100%;
+  height:15px;
+  background-color:#C6FF00;
+}
+
+#header ul{
+  width:500px;
+  color:black;
+  position:absolute;
+  margin-top:400px;
+  margin-left:5%;
+  font-size:20px;
+}
+
+#first-panel div{
+  font-size:18px;
+  height:400px;
+  padding:7%;
+/*  border:solid 1px blue;*/
+
+}
+
+#first-panel div img{
+ /* margin-top:100px;*/
+ /* display:inline-block;*/
+
+}
+
+#first-panel div p{
+  margin-top:50px;
+  color:#C6FF00;
+  margin-left:10%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#first-panel div h2{
+  color:#C6FF00;
+  font-family: 'Open Sans', sans-serif;
+  margin-top:-40px;
+}
+
+footer{
+  width:100%;
+  background-color:#C6FF00;
+  height:200px;
+  position:absolute;
+  margin-top:1200px;
+/*  margin-top:1500px;*/
+}
+
+
+@media only screen and (max-width: 600px) {
+    #first-panel div {
+        height:300px;
+        /*border:solid white 3px;*/
+    }
+
+    #header span, #header h3{
+      width:600px;
+    }
+
+    #header ul{
+      width:300px;
+    }
+
+    footer{
+      margin-top:1600px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+
+#header span, #header h3{
+  margin-top:100px;
+  width:500px;
+}
+
+#header ul{
+  width:400px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+    #social-media{
+    margin-left:40%;
+    width:600px;
+    z-index:2;
+    position:absolute;
+    margin-top:1900px;
+    list-style-type:none;
+}
+
+
+
+nav{
+  display:none;
+}
+
+#first-panel div img{
+  margin-left:5%;
+}
+
+#header h3, #header span{
+  margin-top:150px;
+  margin-left:5%;
+  width:300px;
+
+}
+
+#header ul{
+  margin-top:450px;
+  width:300px;
+}
+
+@media only screen and (max-width: 400px){
+#header h3, #header span{
+  margin-top:150px;
+  width:300px;
+
+}
+
+#header ul{
+  margin-left:0%;
+  width:300px;
+}
+
+}
+
+
+
+
